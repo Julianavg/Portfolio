@@ -1,0 +1,52 @@
+body {
+    background: grey url("../Imgs/background.jpg");
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    border-bottom: solid 2px grey;
+    padding-right: 50px;
+}
+
+
+h1 {
+    background: #31CEC9;
+    Font-size: 32px;
+    color:white;
+    margin-left: 15%;
+    margin-right: 10%;
+    padding: 20px;
+    margin-top:0;
+    margin-bottom:0;
+    display: inline-block;
+    font-family: helvetica, arial, sans-serif;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 30%;
+}
+
+a {
+    margin-right: 24px;
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+h2 {
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+    color: #31CEC9;
+    font-family: helvetica, arial, sans-serif;
+}
+
+#aboutme {
+    background:white;
+    padding: 20px;
+    margin: 30px 800px 20px 80px;
+    font-family: helvetica, arial, sans-serif;   
+}
+
