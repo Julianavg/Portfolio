@@ -14,7 +14,7 @@ h1 {
     background: #31CEC9;
     Font-size: 32px;
     color:white;
-    margin-left: 15%;
+    margin-left: 6.1%;
     margin-right: 10%;
     padding: 20px;
     margin-top:0;
@@ -38,7 +38,7 @@ a {
 
 h2 {
     border-bottom: 2px solid grey;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     color: #31CEC9;
     font-family: helvetica, arial, sans-serif;
 }
@@ -46,7 +46,61 @@ h2 {
 #aboutme {
     background:white;
     padding: 20px;
-    margin: 30px 800px 20px 80px;
-    font-family: helvetica, arial, sans-serif;   
+    margin: 30px 80px 20px 80px;
+    font-family: helvetica, arial, sans-serif; 
+    width: 40%; 
+    float: left;
+    font-size: 18px;
+    color: #515757;
+}
+
+img {
+    width: 100%;
+}
+
+#contactme {
+    background:white;
+    padding: 20px;
+    margin: 30px 80px 20px 80px;
+    font-family: helvetica, arial, sans-serif;  
+    width: 30%; 
+    float: right;
+}
+#github {
+    width: 80px;
+    margin-right: 40px;
+    margin-left: 35px;
+    }
+#linkedin {
+     width: 80px;
+     margin-right: 30px;
+    }
+#instagram {
+    width: 80px;
+    margin-right: 40px;
+   }
+
+.group:after {
+    content: "";
+    clear: both;
+    display: table;   
+}
+
+p {
+    text-align: center;
+    line-height: 22px;
+}
+
+footer {
+    background-color: #515757;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    border-top: 5px solid #31CEC9;
+}
+
+#copyright {
+    color: white;
 }
 
