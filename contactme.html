@@ -12,9 +12,9 @@
     <header>
         <h1> JULIANA VARGAS </h1>
         <nav>
-            <a href=#> About </a>
-            <a href=#> Portfolio </a>
-            <a href=#> Contact </a>
+            <a href=index.html> About </a>
+            <a href=portfolio.html> Portfolio </a>
+            <a href=contactme.html> Contact </a>
 
         </nav>
     </header>
@@ -22,13 +22,24 @@
     <div class= "primary-content t-border group">
         <div id="contactmemsj">
             <h2>Contact</h2>
-            <p class="contactsection">Name</p>
-            <p id="replyname">Jean Paul Giraldo</p>
-            <p class="contactsection">E-mail</p>
-            <p id="replyemail">jpgiraldo@gmail.com</p>
-            <p class="contactsection">Message</p>
-            <p id="replymessage">Type your message here</p>
-            <p id="submit"> Submit </p>
+            <form action="./thankyou.html" method="get">
+                <label for="name">Name:</label>
+                <br />
+                <input type="text" name="name"/>
+                <br />
+                
+                <label for="email">Email:</label>
+                <br />
+                <input type="email" name="email"/>
+                <br />
+                
+                <label for="message">Message</label>
+                <br />
+                <textarea name="comments" cols="50" rows="8">Type your message here</textarea>
+                <br />
+                <button id="button1" type="submit">Submit</button>
+            </form>
+    
         </div>
         
         <div class= "contactme">
